@@ -1,0 +1,81 @@
+/* Settings Section Styling */
+#settings-section {
+    padding: 2rem;
+    background: linear-gradient(to right, #6215a5, #bc005eab); /* Same background as Home */
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2rem;
+    background: linear-gradient(to right, #ff8c00, #720000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 1.5rem;
+}
+
+/* Settings Container */
+.settings-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.settings-box {
+    background-color: #ffffff5b; /* Consistent theme */
+    border-left: 5px solid #4CAF50;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.settings-box h3 {
+    color: #333;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.settings-box label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.8rem;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/* Button Styles */
+.change-btn,
+.delete-btn {
+    width: 100%;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    font-weight: bold;
+}
+
+.change-btn {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+.delete-btn {
+    background-color: #ff5722;
+    color: #fff;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+/* Dark Mode Support */
+body.dark-mode #settings-section {
+    background: linear-gradient(to right, #1a1a1a, #2b2b2b);
+}
+
+body.dark-mode .section-title {
+    background: linear-gradient(to right, #ff8c00, #bc005e);
+}

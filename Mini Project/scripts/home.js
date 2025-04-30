@@ -1,0 +1,1 @@
+fetch("sections/home.html")

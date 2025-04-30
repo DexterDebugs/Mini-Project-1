@@ -1,0 +1,55 @@
+/* Placed Section Styling */
+#placed-section {
+    padding: 2rem;
+    background: linear-gradient(to right, #6215a5, #bc005eab); /* Same gradient as Home */
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2rem;
+    background: linear-gradient(to right, #ff8c00, #720000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 1.5rem;
+}
+
+.placed-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.placed-box {
+    background-color: #ffffff5b; /* Same card background */
+    border-left: 5px solid #4CAF50; /* Same green border */
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.placed-box h3 {
+    color: #333;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.placed-box ul {
+    list-style: none;
+    padding: 0;
+}
+
+.placed-box ul li {
+    background-color: #24117682; /* Same green background */
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 8px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .placed-container {
+        grid-template-columns: 1fr;
+    }
+}

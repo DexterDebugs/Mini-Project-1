@@ -1,0 +1,117 @@
+/* Profile Section Styling */
+#profile-section {
+    padding: 2rem;
+    background: linear-gradient(to right, #6215a5, #bc005eab); /* Gradient Background */
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2rem;
+    background: linear-gradient(to right, #ff8c00, #720000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 1.5rem;
+}
+
+/* Profile Container */
+.profile-container {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+/* Profile Picture Styling */
+.profile-pic-container {
+    text-align: center;
+}
+
+#profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #24117682;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+#upload-pic {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: #24117682;
+    color: #fff;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#upload-pic:hover {
+    background-color: #45a049;
+}
+
+/* Form Styling */
+#profile-form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#profile-pic {
+    width: 100px;         
+    height: 100px;        
+    border-radius: 50%;   
+    object-fit: cover;    
+    border: 3px solid #fff;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 2px solid #24117682;
+    border-radius: 8px;
+    background-color: #ffffff5b;
+    color: #333;
+}
+
+/* Buttons Styling */
+.btn-container {
+    display: flex;
+    gap: 1rem;
+}
+
+button {
+    width: 100%;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    font-weight: bold;
+}
+
+.save-btn {
+    background-color: #24117682;
+    color: #fff;
+}
+
+.cancel-btn {
+    background-color: #ff5722;
+    color: #fff;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
